@@ -28,6 +28,7 @@
 					<li><a href="./listar.php">Productos</a></li>
 					<li><a href="./vender.php">Vender</a></li>
 					<li><a href="./ventas.php">Ventas</a></li>
+					<li><a href="./personal.php">personal</a></li>
 				</ul>
 			</div>
 		</div>
