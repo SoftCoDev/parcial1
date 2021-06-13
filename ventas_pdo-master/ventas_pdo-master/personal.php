@@ -6,7 +6,7 @@ $productos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 ?>
 
 	<div class="col-xs-12">
-		<h1>PERSONAL</h1>
+		<h1>PERSONAL DATE</h1>
 		<div>
 			<a class="btn btn-success" href="./formulario.php">Nuevo <i class="fa fa-plus"></i></a>
 		</div>
@@ -22,6 +22,8 @@ $productos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 					<th>DUI</th>
 					<th>Pais</th>
 					<th>Estado</th>
+					<th>Profesion</th>
+
 				</tr>
 			</thead>
 			<tbody>
