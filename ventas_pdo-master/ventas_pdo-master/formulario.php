@@ -10,10 +10,10 @@
 		<textarea required id="descripcion" name="descripcion" cols="30" rows="5" class="form-control"></textarea>
 
 		<label for="precioVenta">Precio de venta:</label>
-		<input class="form-control" name="precioVenta" required type="number" id="precioVenta" placeholder="Precio de venta">
+		<input class="form-control" name="precioVenta" required type="number" id="precioVenta" placeholder="Precio de venta" step="any" pattern="[0-9,.]+">
 
 		<label for="precioCompra">Precio de compra:</label>
-		<input class="form-control" name="precioCompra" required type="number" id="precioCompra" placeholder="Precio de compra">
+		<input class="form-control" name="precioCompra" required type="number" id="precioCompra" placeholder="Precio de compra" step="any" pattern="[0-9,.]+">
 
 		<label for="existencia">Existencia:</label>
 		<input class="form-control" name="existencia" required type="number" id="existencia" placeholder="Cantidad o existencia">
